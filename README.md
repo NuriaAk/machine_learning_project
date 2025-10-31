@@ -19,8 +19,7 @@ Each module includes notebooks, scripts, and explanations. The **05-deployment**
 2. Navigate into a module, e.g.:  
    ```bash
    cd 02-regression
-
-3. Read the module’s README.md for instructions (data downloading, environment setup, running notebooks).
+3. Each repo contains a homework related to each topic.
 
 ### Requirements & Environment
 * Python 3.8+ (or as specified per module)
