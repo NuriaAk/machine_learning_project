@@ -64,8 +64,6 @@ your-project/
 └── README.md
 ```
 
-Use stable, descriptive feature names like `lead_source` or `annual_income`.
-
 ---
 
 ## 4. Test Locally
