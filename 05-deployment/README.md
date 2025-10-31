@@ -111,7 +111,7 @@ This makes your model accessible via simple HTTP calls—no Python required on t
 Use a Python client to confirm your API works as expected.
 
 ```python
-# client.py
+# test.py
 import requests
 
 response = requests.post(
@@ -237,7 +237,7 @@ uv add scikit-learn==1.6.1 fastapi uvicorn requests
 uv run uvicorn app:app --reload --port 8000
 
 # Test the service
-uv run python client.py
+uv run python test.py
 
 # Build Docker image
 docker build -t my-model:v1 .
@@ -254,7 +254,7 @@ docker run --rm -p 8000:8000 my-model:v1
 1. Train → pipeline_v1.bin
 2. Lock environment → uv.lock
 3. Create API → app.py
-4. Test locally → client.py
+4. Test locally → test.py
 5. Containerize → Dockerfile
 6. Deploy → Cloud platform
 7. Monitor → Logs, metrics, retraining
