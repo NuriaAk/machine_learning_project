@@ -59,8 +59,8 @@ your-project/
 ├── pyproject.toml
 ├── uv.lock
 ├── pipeline_v1.bin
-├── main.py
-├── app.py
+├── test.py
+├── predict.py
 └── README.md
 ```
 
